@@ -66,6 +66,8 @@ class ParentController extends Controller
     }
 
 
+
+
     /**
      * Get the authenticated User.
      *
