@@ -49,6 +49,12 @@ Route::group([
 });
 
 
+Route::get('/test', function () {
+    return '✅ Server is working!';
+});
+
+
+
 //parent routes
 Route::prefix('parent')->group(function () {
 
